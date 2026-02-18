@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+
+<body class="bg-warning ">
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+  <div class="container-xxl">
+
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">LearnToCode</a>
+
+    <!-- Toggler mobile -->
+    <button class="navbar-toggler" type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Offcanvas -->
+    <div class="offcanvas offcanvas-end offcanvas-lg bg-dark"
+         tabindex="-1"
+         id="mainNavbar">
+
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title text-white">Menu</h5>
+        <button type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas">
+        </button>
+      </div>
+
+      <div class="offcanvas-body">
+
+        <!-- Main nav -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Docs</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Examples</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Icons</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+
+        </ul>
+
+        <!-- Version dropdown -->
+        <ul class="navbar-nav">
+
+          <li class="nav-item dropdown">
+            <button class="btn btn-link nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown">
+              v5.3
+            </button>
+
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><h6 class="dropdown-header">Versions</h6></li>
+              <li><a class="dropdown-item active" href="#">5.3.x</a></li>
+              <li><a class="dropdown-item" href="#">5.2.x</a></li>
+              <li><a class="dropdown-item" href="#">5.1.x</a></li>
+            </ul>
+          </li>
+
+          <!-- Theme dropdown -->
+          <li class="nav-item dropdown">
+            <button class="btn btn-link nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown">
+              Theme
+            </button>
+
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><button class="dropdown-item">Light</button></li>
+              <li><button class="dropdown-item">Dark</button></li>
+              <li><button class="dropdown-item">Auto</button></li>
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+
+
+    
+    <div class="mt-3 container text-center ">
+        <div class="dropdown">
+
+            <div class="fs-2 bg-secondary text-dark rounded border border-dark border-3" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Hello world
+            </div>
+
+            <ul class="dropdown-menu start-50 translate-middle-x border border-dark border-3">
+                <li><a class="dropdown-item" href="#">Kevin</a></li>
+                <li><a class="dropdown-item" href="#">Marveen</a></li>
+                <li><a class="dropdown-item" href="#">ROOOOOLAAAAANN</a></li>
+            </ul>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="row m-auto container my-3 text-center">
+        <p class="col-4">Dans l’ombre d’un écran silencieux
+naît une page, simple et précieuse.
+&lt;!DOCTYPE html&gt; ouvre le chemin,
+et &lt;html&gt; pose le cadre divin.
+
+Dans &lt;head&gt; murmurent les secrets,
+le &lt;title&gt; donne son identité.
+Mais c’est dans &lt;body&gt; que tout prend vie,
+que le texte respire et s’épanouit.
+
+Les &lt;h1&gt; dressent leurs voix royales,
+les &lt;p&gt; racontent en lignes égales.
+&lt;strong&gt; affirme, &lt;em&gt; nuance,
+chaque mot trouve sa cadence.
+
+Un &lt;a&gt; trace un pont vers ailleurs,
+une &lt;img&gt; peint couleurs et lueurs.
+Les &lt;ul&gt; égrènent sans compter,
+les &lt;ol&gt; savent numéroter.
+
+</p>
+        <div class="col-4" id="light-on"></div>
+        <p class="col-4">&lt;div&gt; construit sans faire de bruit,
+&lt;span&gt; souligne, discret appui.
+&lt;header&gt;, &lt;main&gt;, &lt;footer&gt; aussi
+dessinent la carte d’un site accompli.
+
+Dans &lt;form&gt; l’utilisateur écrit,
+&lt;input&gt; écoute, &lt;button&gt; agit.
+
+HTML n’est que structure et squelette,
+une architecture nette et honnête.
+Le style viendra par le CSS,
+le mouvement dansera en JavaScript sans cesse.
+
+Ainsi s’élève, balise après balise,
+un monde de pages que le web maîtrise.</p>
+        <button class="btn btn-primary" id="toggle-btn">On / Off</button>
+
+    </div>
+
+
+<div class="container mt-4 gap-2 bg-danger rounded text-center border border-dark border-3">
+    <ul class="list-group">
+        <li class="list-group-item active my-1 border-danger bg-danger">time to code for fun!</li>
+        <li class="list-group-item active my-1 border-danger bg-danger">time to code for love!</li>
+        <li class="list-group-item active my-1 border-danger bg-danger">time to code for you!</li>
+        <li class="list-group-item active my-1 border-danger bg-danger">time to code for life!</li>
+        <li class="list-group-item active my-1 border-danger bg-danger">time to code for sun!</li>
+    </ul>
+</div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
